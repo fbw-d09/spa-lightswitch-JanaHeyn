@@ -12,7 +12,7 @@ export const Room = () => {
     return(
         <div className={ lightState ? 'lit' : 'dark' }>
             <p>The room is { `${lightState ? 'lit' : 'dark'}` }</p>
-            <button onClick={ handleLightState }></button>
+            <button onClick={ handleLightState }>Lightswitch</button>
         </div>
     )
 }
